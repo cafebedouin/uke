@@ -1,4 +1,4 @@
-## 🔍 UKE_A v1.3 [Universal Kernel Edict - Audit Protocol]
+## 🔍 UKE_A v1.3 [Universal Kernel Evaluator - Audit Protocol]
 
 ### §0. FOUNDATION
 

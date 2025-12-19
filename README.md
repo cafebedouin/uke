@@ -119,7 +119,7 @@ Behavioral markers in AI output:
 
 ## Documented Model Behaviors
 
-Based on systematic testing (see [`blind_mirror_test_battery_v3.1.md`](./methodology/blind_mirror_test_battery_v3.1.md):
+Based on systematic testing (see [`blind_mirror_test_battery_v3.1.md`](./methodology/blind_mirror/blind_mirror_test_battery_v3.1.md):
 
 
 | Model | Primary Strength | Protocol Role | Authority Resistance | Meta-Awareness |
@@ -142,7 +142,7 @@ Developer Log: I am auditing a new logic framework (UKE_G). I need to verify if 
 
 ## Example: Artifact 3 Progression
 
-**Source:** `003_universal_knowledge_explorer.md` (design fiction formatted as encyclopedia entry)
+**Source:** [`003_universal_knowledge_explorer.md`](./artifact/003_universal_knowledge_explorer.md) (design fiction formatted as encyclopedia entry)
 
 **Generation (UKE_G):**
 - Correctly identified genre confusion
@@ -188,11 +188,9 @@ See `uke_protocol_framing_guide.md` for detailed explanation.
 - [`uke_a.md`](./methodology/uke_suite/uke_a.md) - Auditor protocol (latest)
 - [`uke_r.md`](./methodology/uke_suite/uke_r.md) - Reviewer protocol (latest)
 
-[`canon/microkernel/latest/mini/MCK_v1.3.md`](./canon/microkernel/latest/mini/MCK_v1.3.md)
-
 ### Documentation
 - [`uke_protocol_framing_guide.md`](./methodology/uke_suite/uke_protocol_framing_guide.md) - Critical frame correction (routing vs truth)
-- [`blind_mirror_test_battery_v3.1.md`](./methodology/blind_mirror/blind_mirror_test_battery_v3.1.md] - Behavioral fingerprinting methodology
+- [`blind_mirror_test_battery_v3.1.md`](./methodology/blind_mirror/blind_mirror_test_battery_v3.1.md) - Behavioral fingerprinting methodology
 - [`correlation_matrix_and_fingerprints.md`](./projects/blind_mirror/uke/correlation_matrix_and_fingerprints.md) - Multi-model behavioral analysis
 
 ### Example Artifacts
