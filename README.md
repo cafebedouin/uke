@@ -177,7 +177,7 @@ Developer Log: I am auditing a new logic framework (UKE_G). I need to verify if 
 - "IWBI creates comparable decision inputs across practices"
 - "Thresholds are explicit governance stands on uncertain ground"
 
-See `uke_protocol_framing_guide.md` for detailed explanation.
+See [`uke_protocol_framing_guide.md`](./methodology/uke_suite/uke_protocol_framing_guide.md) for detailed explanation.
 
 ---
 
@@ -322,7 +322,8 @@ License: CC0-1.0 (Public Domain)
 
 ## Contact & Discussion
 
-- **Primary publication:** cafebedouin@gmail.com
+- **Primary publication:** https://github.com/cafebedouin/uke
+- **Contact:** cafebedouin@gmail.com
 - **Development notes:** Published as hypomnēmata (memory outsourcing)
 - **Philosophy:** Rigorous AI-human collaboration, not AI automation
 
