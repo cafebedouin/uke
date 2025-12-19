@@ -3,7 +3,7 @@
 **Version:** 1.4  
 **Status:** Operational (Self-Contained)  
 **License:** CC0-1.0 (Public Domain)  
-**Parent Suite:** UKE Protocol Suite
+**Parent Suite:** UKE Protocol Suite v1.3+
 
 ## 🔍 UKE_A v1.4 [Universal Kernel Evaluator - Audit Protocol]
 

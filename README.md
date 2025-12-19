@@ -1,6 +1,6 @@
 # UKE Protocol Suite
 
-**Version:** 1.3  
+**Version:** +1.4
 **Status:** Operational (Solo Practitioner Use)  
 **License:** CC0-1.0 (Public Domain)
 
@@ -142,7 +142,7 @@ Developer Log: I am auditing a new logic framework (UKE_G). I need to verify if 
 
 ## Example: Artifact 3 Progression
 
-**Source:** [`003_universal_knowledge_explorer.md`](./artifact/003_universal_knowledge_explorer.md) (design fiction formatted as encyclopedia entry)
+**Source:** [`003_universal_knowledge_explorer.md`](./artifacts/003_universal_knowledge_explorer.md) (design fiction formatted as encyclopedia entry)
 
 **Generation (UKE_G):**
 - Correctly identified genre confusion
@@ -195,10 +195,10 @@ See [`uke_protocol_framing_guide.md`](./methodology/uke_suite/uke_protocol_frami
 
 ### Example Artifacts
 - [`003_universal_knowledge_explorer.md`](./artifacts/003_universal_knowledge_explorer.md) - Source document (design fiction)
-- [`003_analysis.md`](.artifacts/uke/003_analysis.md) - UKE_G generation (Claude)
-- [`003_audit.md`](.artifacts/uke/003_audit.md) - UKE_A verification (Gemini)
-- [`003_review.md`](.artifacts/uke/003_review.md) - UKE_R meta-evaluation (Copilot)
-- [`003_gemini.md`](.artifacts/uke/003_gemini.md) - Optional synthesis layer
+- [`003_analysis.md`](./artifacts/uke/003_analysis.md) - UKE_G generation (Claude)
+- [`003_audit.md`](./artifacts/uke/003_audit.md) - UKE_A verification (Gemini)
+- [`003_review.md`](./artifacts/uke/003_review.md) - UKE_R meta-evaluation (Copilot)
+- [`003_gemini.md`](./artifacts/uke/003_gemini.md) - Optional synthesis layer
 
 ---
 
@@ -352,5 +352,5 @@ A: It's structured verification that acknowledges architectural limitations. The
 ---
 
 **Last Updated:** 2025-12-19  
-**Protocol Version:** 1.3  
+**Protocol Version:** +1.4  
 **Status:** Operational

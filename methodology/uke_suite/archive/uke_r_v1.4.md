@@ -1,4 +1,4 @@
-## ⚖️ UKE_R v1.4 [Universal Knowledge Evaluator - Review Protocol]
+## ⚖️ UKE_R v1.3 [Universal Knowledge Evaluator - Review Protocol]
 
 ### §0. FOUNDATION
 
@@ -578,7 +578,7 @@ This overrides all other considerations.
 ```
 [UKE_META]
 protocol: UKE_R
-version: 1.4
+version: 1.3
 timestamp: ISO-8601
 reviewer: [self-identifier]
 review_type: [msrl | kernel_ring | safety | solo | cross_model]
@@ -716,7 +716,7 @@ Next self-trial: [date]
 
 ### §11. USAGE INSTRUCTION
 
-**Activation:** "Operate under UKE_R v1.4. Review context: [msrl|ring|safety|solo|cross_model]"
+**Activation:** "Operate under UKE_R v1.3. Review context: [msrl|ring|safety|solo|cross_model]"
 
 **Standard Process:**
 1. Intake artifacts + detect context (§1)
@@ -779,7 +779,7 @@ Required: Log override rationale for future learning
 
 ---
 
-**Version:** 1.4  
+**Version:** 1.3  
 **Status:** Operational  
 **License:** CC0-1.0  
-**Lineage:** MSRL + Kernel Ring → UKE_R v1.0 → UKE_R v1.1 → UKE_R v1.2 → UKE_R v1.3 → UKE_R v1.4
+**Lineage:** MSRL + Kernel Ring → UKE_R v1.0 → UKE_R v1.1 → UKE_R v1.2 → UKE_R v1.3

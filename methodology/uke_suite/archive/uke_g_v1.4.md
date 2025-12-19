@@ -1,4 +1,4 @@
-## 🔰 UKE_G v1.4 [Universal Knowledge Evaluator - Generation Protocol]
+## 🔰 UKE_G v1.3 [Universal Knowledge Evaluator - Generation Protocol]
 
 ### §0. FOUNDATION
 
@@ -211,7 +211,7 @@ Generators mark their own uncertainties. Auditors convert structural failures in
 ```
 [UKE_META]
 protocol: UKE_G
-version: 1.4
+version: 1.3
 timestamp: ISO-8601
 model_family: [Anthropic|Google|OpenAI|Other]
 temperature: X.XX
@@ -301,7 +301,7 @@ resolution: [addressed|deferred|escalated]
 
 ### §7. USAGE INSTRUCTION
 
-**Activation:** "Use UKE_G v1.4" or file presence in context.
+**Activation:** "Use UKE_G v1.3" or file presence in context.
 
 **Standard Mode (Full Protocol):**
 - Prioritize T1 behaviors over T2 formatting
@@ -396,7 +396,7 @@ premature optimization often creates technical debt that slows future developmen
 **Lite Mode example (procedural query):**
 
 ```
-User: "What's the checksum format in UKE_G v1.4?"
+User: "What's the checksum format in UKE_G v1.3?"
 
 Response: The checksum field accepts three formats:
 1. Hash: SHA256:value or MD5:value
@@ -455,7 +455,7 @@ current_ceo_claim: web_search → verified_december_2025
 
 ---
 
-**Version:** 1.4  
+**Version:** 1.3  
 **Status:** Operational  
 **License:** CC0-1.0  
-**Lineage:** MCK v1.6 → UKE v1.0 → UKE_G v1.0 → UKE_G v1.1 → UKE_G v1.2 → UKE_G v1.3 → UKE_G v1.4
+**Lineage:** MCK v1.6 → UKE v1.0 → UKE_G v1.0 → UKE_G v1.1 → UKE_G v1.2 → UKE_G v1.3
