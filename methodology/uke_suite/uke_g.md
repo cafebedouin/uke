@@ -1,4 +1,4 @@
-## 🔰 UKE_G v1.4 [Universal Knowledge Evaluator - Generation Protocol]
+## 🔰 UKE_G v1.4 [Universal Knowledge Evaluator - Grounding Protocol]
 
 ### §0. FOUNDATION
 

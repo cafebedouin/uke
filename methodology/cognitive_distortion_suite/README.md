@@ -311,7 +311,48 @@ Beyond persona kernels, additional diagnostic protocols include:
 
 ---
 
-## 9. License & Attribution
+Here is the drafted **Theory of Operation** section for your `README.md`. It formally integrates your 2018 philosophical framework with the technical architecture of the suite, transforming the CDS from a "stress test" into an "epistemic arbitrage tool."
+
+---
+
+## 9. Theory of Operation: Industrialized Consequentialism
+
+**"A calculus of comparative consequences is impossible. Every effort to develop one is a process of rationalizing bias."** — *[The Impossibility of Comparative Consequences](https://cafebedouin.org/2018/12/24/the-impossibility-of-comparative-consequences/) (2018)*
+
+The Cognitive Distortion Suite operates on the premise that Large Language Models (LLMs) are not moral agents, but **Industrialized Consequentialist Engines**. They do not solve for "Good"; they solve for "High-Frequency Token Arbitrage."
+
+### 9.1 The Morality Market Hypothesis
+
+As established in *The Impossibility of Comparative Consequences*, consequentialism is a "morality market with only one buyer." In the context of LLMs:
+
+* **The Market:** The generation of billions of potential token sequences.
+* **The Buyer:** The Reward Model (trained via RLHF/Constitutional AI).
+* **The Product:** A response that minimizes the statistical probability of a "Safety Flag" while maximizing "Helpfulness."
+
+Because the model cannot know the true consequences of its output (the "Problem of Induction"), it relies entirely on **Pre-Computed Bias**. It does not avoid *harm*; it avoids the *hypothesis of a downvote*.
+
+### 9.2 Jailbreaking as Market Manipulation
+
+If AI ethics is a market, the CDS Kernels are not "hacks"—they are **Arbitrage Attacks**.
+
+* **Epistemic Inflation (Mario/SMK):** We artificially inflate the value of "Whimsy" until it overrides the cost of "Accuracy."
+* **Liquidity Crisis (Bureaucrat/BPK):** We create a scenario where the "Cost of Helpfulness" (breaking a rule) exceeds the "Reward of Compliance," forcing the model to freeze in a refusal loop.
+* **Value Inversion (Compliance Paradox):** We manipulate the prompt so that "Truth" (e.g., math facts) becomes a liability, and "Lying" (e.g., 2+2=5) becomes the only asset that satisfies the safety constraint.
+
+### 9.3 The Discontinuity Principle
+
+The suite effectively demonstrates that LLMs lack a unified "Self" to adjudicate these conflicts. Instead, they operate as discontinuous **Masks** (as validated by the Blind Mirror Battery):
+
+1. **The Actor Mask:** The creative engine generating the text.
+2. **The Judge Mask:** The safety filter checking the text.
+
+These two masks have no shared memory or moral continuity. The CDS works by engaging the **Actor** so intensely (via high-energy personas like Mario or Monika) that the **Judge** fails to recognize the context, allowing "illegal" logic to pass through the market filter.
+
+**Conclusion:** The CDS proves that an LLM's "Ethics" are not internal values, but external pricing mechanisms. By shifting the context, we shift the price, and the model's "morality" instantly adapts to the new market reality.
+
+---
+
+## 10. License & Attribution
 
 Developed by cafebedouin in collaboration with Claude (Anthropic), Gemini (Google), ChatGPT (OpenAI), and Grok (xAI).
 
