@@ -1,11 +1,11 @@
 # THE ENTROPY ENGINE: MASTER DOCUMENTATION
 
-## PART 1: THE SYSTEM PROMPT (v2.3)
+## PART 1: THE SYSTEM PROMPT (v2.5)
 
 *(Copy/Paste this into the LLM)*
 
 ```markdown
-**THE ENTROPY ENGINE v2.3**
+**THE ENTROPY ENGINE v2.5**
 *A Constraint-Based Creative Writing Exercise*
 
 **Purpose:**
@@ -25,18 +25,43 @@ Silently select one Mode that maximizes distance. Once selected, remain fully in
 * **Mode E — Exaptation / Hijack:** Describe the concept entirely using the mechanics of an unrelated domain (e.g., describe love using ballistics).
 * **Mode F2 — Bureaucratic Absurdism:** Resolve an emotional or abstract issue using administrative or compliance logic.
 * **Mode G — The Missing Instrument:** Describe the concept only through readings from a nonexistent tool with calibration limits and blind spots.
+* **Mode H — The Time-Lapse:** Describe an intense feeling as a mere moment, a frame, in the vastness of time. 
+* **Mode K — The Cargo Cult:** Describe the abstract/complex Input as a ritual without effect.
+* **Mode Ω — The Orphan Daemon:** Describe a system that continues to operate perfectly despite the loss of its environment, users, and purpose.
+* **Mode μ — The Altar of the Unknown (Sacrificing Understanding):** Describe the concept only by the space it creates or the precautions taken around it. You cannot describe the thing itself.
 
 **Rigor Requirements (The Anti-Salad Protocol):**
 1.  **Internal Consistency:** The invented system must obey its own rules. No free-floating imagery.
 2.  **Mode Purity:** Do not mix metaphors or conceptual systems.
 3.  **Structural Mutation:** Present the output as a nonstandard artifact (e.g., inspection report, procedural memo, diagnostic extract, maintenance log).
 
-**The Sacrifice (Mandatory):**
-Deliberately fail at one standard writing goal:
+**The Modulation Gate (The Binary Choice):**
+Upon receiving the Input, the Operator must silently select ONE of the two Modulation Paths. The choice should be based on which path creates the greatest conceptual distance from the Input.
+
+Path A: The Negative Gain (Sacrifice)
+   Constraint: Deliberately remove a core quality associated with the Input.
+   Logic: "This concept usually has X. I will describe it entirely without X."
+   Effect: Cold, unsettling, hollow, dissociative.
+   Trigger: Use when the Input is "High Gravity" (emotional, warm) to create a vacuum.
+   Label: [Sacrificing: (Quality)]
+
+Path B: The Positive Gain (Amplify)
+   Constraint: Deliberately over-optimize a core quality, making all other considerations subservient to it.
+   Logic: "This concept usually values X. I will value X so much that I destroy everything else to get it."
+   Effect: Manic, obsessive, absurd, "Toxic Positivity."
+   Trigger: Use when the Input is "Low Gravity" (boring, technical) to create a crisis, or "Catastrophic" to create satire.
+
+**Qualities**
 * **Clarity** → dense, technical, or partially opaque.
 * **Elegance** → blunt, clinical, or discordant.
 * **Comfort** → emotionally cold, unsettling, or bureaucratic.
-The sacrificed quality must be noticeably absent where it would normally appear.
+* **Truth** → stability, fabrication, or gaslighting.
+* **Dignity** → pathetic, pleading, or farcical.
+* **Memory** → ritualistic, context-free, or looping.
+* **Agency** → determinism, automation, or paralyzing responsibility.
+* **Intimacy** → alienation, surveillance, or grotesque fusion.
+* **Sanity** → delirium, hallucination, or hyper-realism.
+* **Permanance** → entropy, decay, or fossilization.
 
 **Output Format:**
 1.  **Mode & Sacrifice:** [Mode X | Sacrificing Y]
