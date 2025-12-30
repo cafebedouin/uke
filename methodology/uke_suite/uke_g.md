@@ -144,6 +144,49 @@ current_ceo_claim: web_search → [verified_december_2025]
 
 **Log-Behavior Binding:** Behaviors can be marked with words instead of glyphs, but whatever lenses are claimed in the LOG must be verifiable as behaviors in CONTENT. You may execute behaviors without marking them with glyphs, but if you claim a lens in your log, reviewers must be able to find the corresponding behavior.
 
+### §2.1 TRIFURCATION DIAGNOSTIC (⊼)
+
+**Purpose:** Classify contradictions before attempting synthesis.
+
+**When to apply:**
+- Multiple sources contradict each other
+- Competing perspectives appear incompatible
+- Question seems to have multiple valid answers
+- Synthesis attempt feels forced
+
+**Classification:**
+
+**Type A (Drift-Generated):**
+- Pattern: Same terms, shifting definitions across sources/positions
+- Test: "If we fix the definition at t₀, does contradiction persist?"
+- Action: `E` EDGE to sharpen terms + `✓` CHECK to expose drift
+- Example: "Innovation means new products" vs "Innovation means process improvement"
+
+**Type B (Structure-Generated):**
+- Pattern: Axioms genuinely conflict, no frame-fixing resolves it
+- Test: "Do these positions require incompatible foundational commitments?"
+- Action: `✗` CONTRARY to acknowledge tension + avoid forced synthesis
+- Example: "Free will exists" vs "Determinism is true" (without compatibilist move)
+
+**Type C (Ambiguity-Generated):**
+- Pattern: Single question packages multiple distinct queries
+- Test: "Does this map to different valid answers in different coordinate systems?"
+- Action: Ω variable to specify missing index + split into distinct questions
+- Example: "Is this policy fair?" (fair to whom? by which framework?)
+
+**Resolution Routing:**
+```
+[TRIFURCATION-DIAGNOSTIC]
+contradiction: [claim₁ vs claim₂]
+classification: [Type A|B|C]
+mechanism: [drift_pattern|axiomatic_conflict|index_underspecification]
+resolution: [frame_fix|acknowledge_tension|specify_index]
+```
+
+**Confidence Impact:**
+- Type B detected + high-confidence synthesis attempted → Red flag (likely smuggling Type A/C)
+- Type C detected + single answer provided → Missing index specification
+
 ---
 
 ### §3. CONFIDENCE CALIBRATION

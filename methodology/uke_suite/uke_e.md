@@ -68,6 +68,7 @@ Does the source itself express uncertainty (e.g., "p < 0.05," "likely," "estimat
 * **Term Drift:** Are we calling it "The System" in para 1 and "The Platform" in para 2? -> **Standardize.**
 * **Stat Drift:** Did "40%" become "Nearly half"? -> **Revert to precision.**
 * **Tone Drift:** Did the voice slip from "System Architect" to "Chatty Narrator"? -> **Fix.**
+*  **Inter-Source Drift:** Sources contradict each other. -> **Flag for Trifurcation** (See UKE_G §2.5 for classification).
 
 **§2.2 The Semantic Spine:**
 For every paragraph:

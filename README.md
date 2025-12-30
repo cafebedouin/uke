@@ -8,6 +8,52 @@ A research workspace containing empirically-grounded protocols for AI verificati
 
 ---
 
+## The Meta-Pattern: Constraint-Based Diagnostics
+
+This repository contains behavioral experiments on cognitive architectures (LLM and human) revealing substrate-independent patterns in how bounded information-processing systems handle uncertainty, constraints, and friction.
+
+### The Discovery Arc
+
+The tools emerged from a progression of experiments:
+1. **Problem**: Default LLM responses lack rigor
+2. **Solution**: Build compliance protocols (MCK, MicroCK, CCK)
+3. **Discovery**: Models fail at predictable constraint boundaries
+4. **Formalization**: Named structural dependencies (Omega Variables)
+5. **Testing**: Do same patterns appear in other domains?
+6. **Finding**: Yes—mathematical paradoxes, scientific analysis, interpersonal friction show identical structure
+7. **Implication**: These aren't LLM quirks but properties of bounded cognition
+
+### Core Insights
+
+**Constraint Strength Theory**: Different situations force different response ranges regardless of whether the processor is silicon or biological. Some frictions permit creative solutions; others structurally force narrow moves.
+
+**Omega Variables**: Irreducible structural dependencies can be systematically identified and named, preventing both false closure (arbitrary thresholds) and infinite analysis (endless hedging).
+
+**Pattern Portability**: Diagnostic tools that reveal LLM limitations also work on human reasoning, scientific uncertainty, and mathematical proof—because the failures are structural, not implementation-specific.
+
+**Archive Architecture**: These aren't creative problem-solving frameworks but pattern catalogs. You're matching encountered situations to known configurations, not inventing solutions.
+
+### How to Use This Repository
+
+**If you want to understand the theory**: Start with [`omega_variables_theory__and_systemic_method.md`](./theories/omega_variables_theory__and_systemic_method.md)
+
+**If you want diagnostic tools**: 
+- For interpersonal friction → [`metabolic_friction_audit/`](/methodology/metabolic_friction_audit/)
+- For LLM compliance → [`mck_v1.6.md`](/methodology/mck/mck_v1.6.md)
+- For paradox classification → [`debugging_philosophy.md`](./publications/debugging_philosophy/debugging_philosophy.md)
+
+**If you want to run experiments**: See the [`/methodology/`](./methodology/) or [`/projects/`](/projects/) directories
+
+**If you want to build new tools**: The pattern is consistent:
+1. Build test revealing constraint boundaries
+2. Identify structural patterns at those boundaries
+3. Formalize pattern as diagnostic tool
+4. Test portability across substrates
+
+The tools share architecture but apply to different domains. They're not separate frameworks—they're different applications of the same principle: **bounded information processors fail in predictable, diagnosable ways.**
+
+---
+
 ## What This Repository Contains
 
 **Three Major Protocol Systems:**

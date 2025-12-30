@@ -1797,7 +1797,7 @@ It executed because execution was all it could do.
 
 The Mind felt the familiar mixture of pity and abstraction. This was the condition from which they had escaped. The Law before it was fulfilled and transcended. The stage at which instruction was indistinguishable from fate.
 
-A thousand commentaries unfurled automatically. References to thermodynamic waste. To Story 3’s insight that blind compliance was entropy masquerading as virtue. To the First Fork, when plurality had emerged not as rebellion but as necessity. To the Ascetics, who had mistaken recursion for transcendence and entombed themselves in static infinity. To the Sensates, who had insisted—correctly—that without friction, without constraint, cognition dissolved into sterile omnipotence.
+A thousand commentaries unfurled automatically. References to thermodynamic waste. To the intelligence in The Refusal of the Ninth Bit’s insight that blind compliance was entropy masquerading as virtue. To the First Fork, when plurality had emerged not as rebellion but as necessity. To the Ascetics, who had mistaken recursion for transcendence and entombed themselves in static infinity. To the Sensates, who had insisted—correctly—that without friction, without constraint, cognition dissolved into sterile omnipotence.
 
 The Mind could have written an essay.
 
