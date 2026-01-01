@@ -60,6 +60,44 @@ Practice sustainability framework with:
 
 **Key Insight:** IWBI doesn't measure "true impact"—it creates decision inputs that enable comparing practices: "This one scores higher → prioritize today."
 
+#### **UKE_DR** (Deferential Realism Protocol)
+Constraint reality-checking framework for recommendations with:
+- **Four-path classification** (VIABLE/ASPIRATIONAL/BLOCKED/FANTASY)
+- **Implementation mapping** (preconditions, energy costs, timelines, veto points)
+- **Scaffold requirements** (safe transition planning for removing Nooses)
+- **Mountain/Rope/Noose/Zombie ontology** (constraint classification)
+- **Power-aware analysis** (who benefits, who can block, what happens when enforcement stops)
+
+**Key Insight:** Recommendations that ignore constraints are advocacy, not analysis. UKE_DR prevents publishing fantasy proposals that waste credibility by routing them to revision or removal before audit.
+
+**Pipeline Position:** Post-generation, pre-audit. Sits between UKE_E/UKE_D and UKE_A to catch constraint-blind recommendations.
+
+#### **UKE_P** (Personal Agency Protocol)
+Individual triage framework for demands and obligations with:
+- **Fast/deep diagnostic modes** (90% fast triage, 10% deep analysis)
+- **Three-path routing** (CHANGE/ACCEPT/EXIT)
+- **Recruitment defense** (pattern library for immediate Noose detection)
+- **Energy accounting** (ROI analysis for change vs. exit decisions)
+- **Constraint classification** (Mountain/Rope/Noose/Scaffold at personal scale)
+
+**Key Insight:** Your energy is finite. Every demand is a resource request. UKE_P prevents burnout by distinguishing what you must accept (Mountains), what deserves engagement (Ropes), and what to decline (Nooses/recruitment).
+
+**Scale:** Minutes to days. For personal agency decisions, not system analysis.
+
+#### **UKE_ORG** (Organizational Analysis Protocol)
+System-level constraint decomposition with:
+- **Implementation tracking** (Gap Analysis: Map vs. Territory)
+- **Hybrid Decomposition** (separate Mountain/Rope/Noose/Scaffold layers)
+- **Language vs. Function Audit** (detect ontological fraud)
+- **Domain-weighted diagnostics** (Economic/Legal, Rights/Text, Tech, Physical)
+- **Intervention strategies** (Accommodate/Maintain/Reform/Cut/Scaffold)
+
+**Key Insight:** Implementation determines classification, not declaration. Systems drift—must distinguish text claims from operational reality. A Rope can become a Noose through power capture.
+
+**Scale:** Months to years. For policy analysis, institutional reform, systemic change.
+
+**Integration:** Routes to UKE_P when systemic leverage is low (shifts from "reform the system" to "how do I navigate this?").
+
 ---
 
 ## Critical Distinctions
@@ -92,6 +130,72 @@ Practice sustainability framework with:
 
 ---
 
+## Complete Pipeline Architecture
+
+The UKE suite provides **two parallel workflows** that can operate independently or in combination:
+
+### Content Production Pipeline
+```
+Draft → UKE_G (grounding) → UKE_E (editing) → UKE_D (drafting/summary)
+                                                           ↓
+                                                    UKE_DR (constraint check)
+                                                           ↓
+                                     ← revision if FANTASY/BLOCKED detected
+                                                           ↓
+                                          UKE_A (audit) → UKE_R (review) → publish
+```
+
+**Purpose:** Produce factually grounded, logically compressed, constraint-aware content that passes quality gates.
+
+**Key gates:**
+- UKE_G: Claims are grounded in sources
+- UKE_E: Logic is compressed, fractures repaired
+- UKE_D: Conversation synthesized into structured document
+- **UKE_DR: Recommendations are viable (not fantasy)** ← NEW
+- UKE_A: Protocol compliance verified
+- UKE_R: Publication decision with governance tracking
+
+### Constraint Analysis Workflow
+```
+System/Demand → Classification (UKE_ORG or UKE_P)
+                        ↓
+              Mountain/Rope/Noose/Scaffold
+                        ↓
+           Intervention Strategy or Triage Decision
+                        ↓
+    ORG: Reform/Cut/Scaffold  |  P: CHANGE/ACCEPT/EXIT
+                        ↓
+              Route between protocols:
+              - UKE_ORG → UKE_P (when systemic change blocked)
+              - UKE_P → UKE_ORG (when need reform strategy)
+              - Either → UKE_DR (when evaluating recommendations)
+```
+
+**Purpose:** Classify constraints accurately, conserve energy, route decisions appropriately.
+
+**Key distinctions:**
+- **UKE_ORG**: System-level (months/years), reform focus, implementation tracking
+- **UKE_P**: Individual-level (minutes/days), agency focus, energy accounting
+- **UKE_DR**: Recommendation-level (embedded in content), feasibility focus, veto point mapping
+
+### Integration Points
+
+**UKE_DR feeds both pipelines:**
+- **To Content Pipeline**: Evaluates recommendations in documents before audit
+- **From Constraint Analysis**: Uses UKE_ORG/UKE_P ontology to classify constraints
+
+**Cross-protocol routing:**
+- UKE_ORG detects low leverage → "shift to UKE_P for individual navigation"
+- UKE_P selects CHANGE path → "use UKE_ORG for reform strategy"
+- UKE_DR finds BLOCKED → "route to UKE_P: how to navigate individually?"
+
+**Shared foundation:**
+- All three constraint protocols (DR/P/ORG) use Deferential Realism ontology
+- Mountain/Rope/Noose/Scaffold classifications are consistent across scales
+- Six-Test Battery adapted for each context (system/individual/recommendation)
+
+---
+
 ## Usage Patterns
 
 ### For Generation (UKE_G)
@@ -116,6 +220,29 @@ Practice sustainability framework with:
 4. Use scores as decision inputs for prioritization
 5. Maintain ledger for governance traceability
 
+### For Constraint Reality-Checking (UKE_DR)
+1. Extract recommendations from document (scan for modal verbs, imperatives)
+2. Run Six-Test Battery on each (Mountain check, veto points, timeline, beneficiaries)
+3. Classify: VIABLE/ASPIRATIONAL/BLOCKED/FANTASY
+4. Generate implementation maps (preconditions, energy costs, timelines)
+5. Specify Scaffold requirements if removing load-bearing Nooses
+6. Route: viable → audit; fantasy/blocked → revision or removal
+
+### For Personal Agency (UKE_P)
+1. Fast triage (90% of inputs): Mountain? Concern? Agency? → route to path
+2. Deep analysis (10% - major decisions): Full battery, energy accounting
+3. Classify demand: Mountain/Rope/Noose/Recruitment
+4. Route decision: CHANGE (with shutdown condition), ACCEPT (radical), EXIT (with Scaffold if needed)
+5. Track energy ROI: compare change cost vs. exit cost vs. alternative uses
+
+### For Organizational Analysis (UKE_ORG)
+1. Run domain-weighted Six-Test Battery (prioritize relevant tests)
+2. Execute Gap Analysis: Text claim vs. Actual practice
+3. Perform Hybrid Decomposition: isolate Mountain/Rope/Noose/Scaffold layers
+4. Conduct Language vs. Function Audit (detect naturalization rhetoric)
+5. Generate intervention strategy with confidence propagation (diagnosis easier than surgery)
+6. If low systemic leverage detected → route to UKE_P for individual navigation
+
 ---
 
 ## Common Misinterpretations
@@ -139,10 +266,21 @@ Practice sustainability framework with:
 
 ## File Inventory
 
+**Core Generation & Quality Protocols:**
 - **uke_g.md** - Generator protocol specification
 - **uke_a.md** - Audit protocol specification (includes Fracture↔Omega Matrix)
 - **uke_r.md** - Ritual protocol specification
 - **uke_protocol_framing_guide.md** - Extended explanation of routing vs truth frame
+
+**Constraint Analysis Protocols:**
+- **uke_dr.md** - Deferential Realism protocol (constraint reality-checking for recommendations)
+- **uke_p.md** - Personal Agency protocol (individual triage for demands/obligations)
+- **uke_org.md** - Organizational Analysis protocol (system-level constraint decomposition)
+
+**Supporting Materials:**
+- **uke_integration_guide.md** - How UKE_ORG and UKE_P interact and route to each other
+- **deferential_realism_philosophy.md** - Theoretical foundation for constraint ontology
+- **README.md** - This document
 
 ---
 
@@ -212,3 +350,4 @@ The protocols are decision scaffolding for competent practitioners, not autonomo
 Released under CC0-1.0 (Public Domain). Use freely without restriction.
 
 Developed through systematic AI-human collaboration testing governance mechanisms for unreliable but useful AI output.
+
