@@ -251,6 +251,406 @@ Errors at verification stages (UKE_A, UKE_R) have no downstream checking.
 
 **File:** [`uke_e.md`](uke_e.md)
 
+# Complete Pipeline Architecture & Routing
+
+## Understanding the UKE Ecosystem
+
+The UKE suite has evolved from pure verification (UKE_G/A/R) into a **multi-dimensional quality assessment system**. Different protocols measure different quality dimensions:
+
+- **Factual Accuracy:** Do claims have source grounding? (UKE_G, UKE_A)
+- **Constraint Reality:** Are recommendations viable or fantasy? (UKE_DR, UKE_P, UKE_ORG)
+- **Argument Quality:** Is the reasoning sound and structure effective? (UKE_C, UKE_O)
+
+**Critical insight:** A document can pass factual verification (UKE_A) while failing constraint reality (UKE_DR) or argument quality (UKE_C). **This is correct behavior.** The protocols measure orthogonal dimensions.
+
+---
+
+## Pipeline Routing Guide
+
+### Decision Tree: Which Protocols Do I Need?
+
+**Question 1: Who created this document?**
+- **You created it** → May need production pipeline (UKE_D → UKE_E)
+- **External document** → Start with audit (UKE_G → UKE_A)
+
+**Question 2: What does it contain?**
+- **Factual claims** → UKE_G (grounding) + UKE_A (verification) required
+- **Recommendations ("you should...")** → UKE_DR (reality-check) required
+- **Arguments about quality/value** → UKE_C (argument analysis) relevant
+- **Personal correspondence/requests** → UKE_P (triage)
+- **System/policy analysis** → UKE_ORG (constraint decomposition)
+
+**Question 3: What's your goal?**
+- **Verify accuracy** → UKE_G + UKE_A
+- **Check feasibility** → UKE_DR
+- **Evaluate argumentation** → UKE_C
+- **Generate sharp criticism** → UKE_C → UKE_O
+- **Make personal decision** → UKE_P
+- **Analyze institutional structures** → UKE_ORG
+
+---
+
+## Complete Pipelines by Document Type
+
+### Pipeline 1: External Factual Document
+
+**Use when:** Verifying accuracy of documents you didn't write
+
+```
+External Document
+     ↓
+UKE_G: Claude analyzes → Confidence scores + Grounding trails
+     ↓
+UKE_A: Gemini audits → Fracture detection (GATE: pass/fail)
+     ↓
+UKE_R: Copilot reviews → Omega routing
+```
+
+**Time:** 15-30 minutes  
+**Models:** Claude (5/6), Gemini (5/6), Copilot (6/6)
+
+---
+
+### Pipeline 2: External Policy/Recommendation Document
+
+**Use when:** Document contains "should" statements or recommendations
+
+```
+External Document
+     ↓
+UKE_G: Claude analyzes → Grounding verification
+     ↓
+UKE_DR: Any model → Reality-check constraints (VIABLE/BLOCKED/FANTASY)
+     ↓
+UKE_A: Gemini audits → Fracture detection
+     ↓
+UKE_R: Copilot reviews → Final assessment
+```
+
+**Why UKE_DR before UKE_A:** No point auditing fantasy recommendations. Check viability first.
+
+**Time:** 30-45 minutes  
+**Critical gate:** UKE_DR classification determines if recommendations are viable
+
+---
+
+### Pipeline 3: External Argumentative Essay
+
+**Use when:** Evaluating argument quality, not just facts
+
+```
+External Document
+     ↓
+UKE_G: Claude analyzes → Verify factual claims
+     ↓
+UKE_A: Gemini audits → Check grounding
+     ↓
+UKE_C: Any model → Pattern-gated argument analysis
+     ↓
+[Optional] UKE_O: Generate response/criticism
+```
+
+**Why UKE_C after UKE_A:** Verify facts first, then evaluate argumentation.
+
+**Time:** 1-3 hours (UKE_C is thorough)  
+**Output:** Critical essay with evidence-gated claims + Ω questions
+
+---
+
+### Pipeline 4: Your Own Writing (Factual)
+
+**Use when:** Creating verified factual content
+
+```
+Raw Material
+     ↓
+UKE_D: Any 4+/6 → Structure draft (SCQA format)
+     ↓
+UKE_E: Grok → Edit/tighten (iterate as needed)
+     ↓
+UKE_G: Claude → Add verification markers
+     ↓
+UKE_A: Gemini → Audit (GATE: pass/fail)
+     ↓
+UKE_R: Copilot → Review + approve
+```
+
+**Time:** 30-90 minutes  
+**Critical gates:** 
+- UKE_A: If "non-compliant", return to UKE_D. No negotiation.
+- UKE_R: Final approval
+
+---
+
+### Pipeline 5: Your Own Writing (With Recommendations)
+
+**Use when:** Creating policy documents, advice, strategic recommendations
+
+```
+Raw Material
+     ↓
+UKE_D: Any 4+/6 → Draft
+     ↓
+UKE_E: Grok → Edit
+     ↓
+UKE_G: Claude → Add grounding
+     ↓
+UKE_DR: Any model → Reality-check (GATE: VIABLE required)
+     ↓
+UKE_A: Gemini → Audit
+     ↓
+UKE_R: Copilot → Approve
+```
+
+**Why UKE_DR gate:** Prevents publishing fantasy proposals. If classification is BLOCKED or FANTASY, return to drafting.
+
+**Time:** 45-120 minutes  
+**Example:** The Deferential Realism essay passed UKE_A (facts correct) but failed UKE_DR (recommendations ignore Mountains). This is **correct detection** of orthogonal quality dimensions.
+
+---
+
+### Pipeline 6: Your Own Writing (Argumentative/Critical)
+
+**Use when:** Writing essays that make claims about quality, value, or interpretation
+
+```
+Raw Material
+     ↓
+UKE_D: Any 4+/6 → Draft
+     ↓
+UKE_E: Grok → Edit
+     ↓
+UKE_G: Claude → Verify factual claims
+     ↓
+UKE_A: Gemini → Audit facts
+     ↓
+UKE_C: Any model → Self-critique argument quality
+     ↓
+[Optional] UKE_O: Generate revision or response
+     ↓
+UKE_A: Gemini → Re-audit after revisions
+     ↓
+UKE_R: Copilot → Final approval
+```
+
+**Why UKE_C after UKE_A:** Check facts first, then evaluate whether arguments are well-supported.
+
+**Time:** 2-4 hours (includes self-critique iteration)
+
+**Real example:** Deferential Realism passed factual audit (UKE_A) but UKE_C detected argumentation issues. Both findings are valid—orthogonal quality dimensions.
+
+---
+
+### Pipeline 7: Personal Triage (Email/Requests)
+
+**Use when:** Processing correspondence, invitations, obligations
+
+```
+Email/Request
+     ↓
+UKE_P: Fast triage (90%) → CHANGE/ACCEPT/EXIT
+     ↓
+[If systemic pattern] → Route to UKE_ORG
+```
+
+**Time:** Minutes to hours  
+**Models:** Any  
+**Integration:** UKE_P → UKE_ORG when pattern reveals institutional issue
+
+---
+
+### Pipeline 8: System Analysis (Institutional/Policy)
+
+**Use when:** Analyzing organizational structures, policies, laws
+
+```
+System/Policy
+     ↓
+UKE_ORG: Constraint decomposition → Mountain/Rope/Noose/Scaffold
+     ↓
+[If viable reform path] → Generate recommendations
+     ↓
+UKE_DR: Reality-check → Verify recommendations viable
+     ↓
+[If individual action needed] → Route to UKE_P
+```
+
+**Time:** Days to weeks  
+**Integration:** 
+- UKE_ORG → UKE_P when systemic leverage low
+- UKE_ORG → UKE_DR when generating recommendations
+
+---
+
+## Integration Points & Routing Logic
+
+### When Protocols Route to Each Other
+
+**UKE_G → UKE_DR:**
+- Trigger: Document contains recommendations
+- Gate: UKE_DR must classify as VIABLE before proceeding to UKE_A
+
+**UKE_A → UKE_C:**
+- Trigger: Document makes argumentative claims (not just factual)
+- Sequence: Verify facts first (UKE_A), then evaluate argumentation (UKE_C)
+
+**UKE_C → UKE_O:**
+- Trigger: Need sharp criticism from analysis substrate
+- Requirement: UKE_C output provides evidence base for UKE_O claims
+
+**UKE_P → UKE_ORG:**
+- Trigger: Personal triage reveals systemic pattern
+- Example: "Why do I keep getting these requests?" → organizational analysis
+
+**UKE_ORG → UKE_P:**
+- Trigger: System analysis shows low individual leverage
+- Example: "Can't change the policy, how do I triage personally?"
+
+**UKE_ORG → UKE_DR:**
+- Trigger: Reform recommendations generated
+- Gate: Reality-check before publishing
+
+---
+
+## The Orthogonal Quality Dimensions
+
+### Why Documents Can Pass One Protocol and Fail Another
+
+**Case Study: Deferential Realism Essay**
+
+```
+Production pipeline: UKE_D → UKE_E → UKE_G → UKE_E (iterate) → UKE_A
+Result: PASS (all claims grounded, logic sound)
+
+Constraint check: UKE_DR
+Result: BLOCKED/FANTASY (recommendations ignore Mountains)
+
+Argument analysis: UKE_C → UKE_O
+Result: Structural and rhetorical issues detected
+```
+
+**Each finding is valid.** The protocols measure different dimensions:
+
+| Dimension | Protocol | Verdict | Why |
+|-----------|----------|---------|-----|
+| **Factual** | UKE_A | ✓ Pass | Claims properly sourced |
+| **Constraint** | UKE_DR | ✗ Fail | Ignores Mountains |
+| **Rhetorical** | UKE_C | ✗ Fail | Argumentation weak |
+
+**Implication:** Multi-dimensional assessment required for comprehensive quality evaluation. A document that passes factual verification may still fail on viability or argumentation.
+
+**This is not a bug—it's validation of architectural independence.**
+
+---
+
+## Common Routing Mistakes
+
+### Mistake 1: Skipping UKE_DR for Policy Documents
+
+**Wrong:**
+```
+Policy doc → UKE_G → UKE_A → Publish
+(Fantasy recommendations undetected)
+```
+
+**Right:**
+```
+Policy doc → UKE_G → UKE_DR (GATE) → UKE_A → Publish
+(Reality-check before audit)
+```
+
+---
+
+### Mistake 2: Using UKE_C Without Factual Verification
+
+**Wrong:**
+```
+External essay → UKE_C (analyze arguments)
+(May be analyzing fabricated claims)
+```
+
+**Right:**
+```
+External essay → UKE_G → UKE_A → UKE_C
+(Verify facts before evaluating arguments)
+```
+
+---
+
+### Mistake 3: Treating UKE_P and UKE_ORG as Interchangeable
+
+**Wrong:**
+```
+Institutional policy → UKE_P (individual triage)
+(Wrong scale - personal protocol for systemic issue)
+```
+
+**Right:**
+```
+Institutional policy → UKE_ORG (system analysis)
+(Correct scale for organizational constraints)
+```
+
+---
+
+### Mistake 4: Negotiating After UKE_DR Classification
+
+**Wrong:**
+```
+UKE_DR: "FANTASY - ignores fundamental constraints"
+You: "Can we call it 'aspirational' instead?"  ← NO
+```
+
+**Right:**
+```
+UKE_DR: "FANTASY"
+You: Return to drafting, address constraints, regenerate
+```
+
+**Why:** Classification is evidence-based. Negotiation breaks reality-checking.
+
+---
+
+## Quick Reference: Protocol Selection Matrix
+
+| Document Type | Contains... | Use Protocols |
+|--------------|-------------|---------------|
+| External factual | Claims only | G → A → R |
+| External policy | Recommendations | G → DR → A → R |
+| External argumentative | Quality claims | G → A → C → (O) |
+| Your factual draft | Claims only | D → E → G → A → R |
+| Your policy draft | Recommendations | D → E → G → DR → A → R |
+| Your argumentative draft | Quality claims | D → E → G → A → C → (O) → R |
+| Personal correspondence | Request/demand | P |
+| Institutional analysis | System structure | ORG → (DR if recs) |
+
+---
+
+## For Your Initial Project Setup
+
+Based on this routing architecture, here's what to add to your Claude Project:
+
+### 1. Document Type Detection Guide
+Quick reference for "I have X, which protocols do I need?"
+
+### 2. Common Integration Patterns
+The 8 pipelines above with time estimates and model assignments
+
+### 3. Worked Examples in Each Direction
+- Success case (passes all relevant protocols)
+- Single-dimension failure (passes factual, fails constraint)
+- Multi-dimension failure (Deferential Realism case)
+
+### 4. Failure Mode Gallery
+Actual examples of:
+- F-FLAG-INFLATION (UKE_C)
+- Fantasy recommendations (UKE_DR)
+- Grounding failures (UKE_A)
+
+This would give Claude clear routing logic without needing to search the full protocol specs every time.
+-e 
+---
+
 **Key mechanisms:**
 - **Prose compression:** Remove hedging, clarify vague claims
 - **Logic repair:** Fix gaps and inconsistencies
@@ -893,3 +1293,4 @@ https://github.com/cafebedouin/uke/methodology/uke_suite
 **Last Updated:** 2025-01-03
 **Version:** UKE 1.4 (D/E/G/A/R all stable)
 **Empirical Basis:** 11-model Blind Mirror dataset with r = -0.81 correlation
+

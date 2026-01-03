@@ -679,7 +679,7 @@ This is rigorous AI-human collaboration research, not AI automation. The protoco
 
 The UKE Protocol Suite evolved from the Meta-Cognitive Kernel (MCK), developed as part of the *Pilates of the Mind* project exploring rigorous AI-human collaboration. MCK's core insight—that single-model self-regulation cannot be architecturally guaranteed—led to UKE's multi-model verification design, validated through Blind Mirror testing which found 83% authority gradient drift rate.
 
-For complete project history: [Pilates of the Mind](https://github.com/cafebedouin/pilates-of-the-mind)
+For complete project history: [Pilates of the Mind](https://github.com/cafebedouin/potm)
 
 ---
 
