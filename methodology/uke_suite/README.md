@@ -60,6 +60,26 @@ Practice sustainability framework with:
 
 **Key Insight:** IWBI doesn't measure "true impact"—it creates decision inputs that enable comparing practices: "This one scores higher → prioritize today."
 
+#### **UKE_C** (Criticism Protocol)
+Literary/creative work evaluation framework with:
+- **Material Encounter** (§1) - Observable textual features without interpretation
+- **Pattern Recognition** (§2) - Evidence-based flag system preventing over/under-reading
+- **Move Deployment** (§3) - 20 critical techniques gated by pattern flags
+- **Gate Rule** - No evaluative moves without corresponding pattern evidence
+- **Ω Elevation** - Converting unresolvable tensions into productive questions
+
+**Key Insight:** Criticism is diagnostic, not prosecutorial. Flags protect against both interpretive hallucination (reading patterns that aren't there) and negligence (missing patterns that are). The Gate Rule prevents deploying critical moves when textual evidence doesn't warrant them—descriptive reports are legitimate outcomes.
+
+#### **UKE_O** (Opinion Protocol)
+Cultural criticism framework transforming analytical findings into sharp, opinionated writing with:
+- **Evidence Transformation Matrix** (Boring/Contrary/Dangerous readings)
+- **Voice Architecture** (Temperature modulation: Hot/Warm/Cool)
+- **Counterfactual Test** (Claims must be falsifiable via textual evidence)
+- **Frame Decision** (Explicit choice to accept or reject text's premises)
+- **Stakes Anchor** (Why misreadings matter beyond being wrong)
+
+**Key Insight:** UKE_O operates in creative mode anchored to analytical input (typically UKE_C output). Strong opinions must derive from real textual patterns—you're required to interpret aggressively but forbidden to invent. Collapses UKE_C's Ω uncertainties into violent certainty while tracking what's erased in metadata.
+
 #### **UKE_DR** (Deferential Realism Protocol)
 Constraint reality-checking framework for recommendations with:
 - **Four-path classification** (VIABLE/ASPIRATIONAL/BLOCKED/FANTASY)
@@ -132,7 +152,7 @@ System-level constraint decomposition with:
 
 ## Complete Pipeline Architecture
 
-The UKE suite provides **two parallel workflows** that can operate independently or in combination:
+The UKE suite provides **three parallel workflows** that can operate independently or in combination:
 
 ### Content Production Pipeline
 ```
@@ -152,6 +172,39 @@ Draft → UKE_G (grounding) → UKE_E (editing) → UKE_D (drafting/summary)
 - UKE_E: Logic is compressed, fractures repaired
 - UKE_D: Conversation synthesized into structured document
 - **UKE_DR: Recommendations are viable (not fantasy)** ← NEW
+- UKE_A: Protocol compliance verified
+- UKE_R: Publication decision with governance tracking
+
+### Creative Work Analysis Workflow
+```
+Literary/Creative Work → UKE_C (criticism)
+                              ↓
+                      Material Encounter (§1)
+                              ↓
+                      Pattern Recognition (§2)
+                              ↓
+                      Move Deployment (§3-§4)
+                              ↓
+                      Synthesis + Ω Questions (§5)
+                              ↓
+                    [Optional: UKE_O (opinion)]
+                              ↓
+              Evidence Transformation + Frame Decision
+                              ↓
+           Sharp Cultural Criticism (Knife Sentence → Stakes Anchor)
+                              ↓
+                      UKE_A (audit) → UKE_R (review) → publish
+```
+
+**Purpose:** Evaluate creative works through rigorous observation, then optionally transform analytical findings into opinionated cultural criticism.
+
+**Key gates:**
+- UKE_C: Pattern flags prevent interpretive hallucination and negligence
+- UKE_C: Gate Rule blocks moves without textual evidence
+- UKE_C: Ω questions preserve productive uncertainties
+- UKE_O (optional): Collapses uncertainties into defensible assertions
+- UKE_O: Counterfactual Test ensures claims are falsifiable
+- UKE_O: Stakes Anchor shows why misreadings matter
 - UKE_A: Protocol compliance verified
 - UKE_R: Publication decision with governance tracking
 
@@ -243,6 +296,24 @@ System/Demand → Classification (UKE_ORG or UKE_P)
 5. Generate intervention strategy with confidence propagation (diagnosis easier than surgery)
 6. If low systemic leverage detected → route to UKE_P for individual navigation
 
+### For Literary Criticism (UKE_C)
+1. Execute Material Encounter (§1): Complete observable inventory without interpretation
+2. Test all pattern flags (§2): Mark ACTIVE/INACTIVE based on evidence thresholds
+3. Route to moves (§3): Only deploy moves with corresponding ACTIVE flags (Gate Rule)
+4. Execute flagged moves (§4): Analyze patterns with textual evidence
+5. Synthesize essay (§5): Build argument from executed moves + generate Ω questions for unresolvables
+6. Quality checks: Hostile Observer Standard, no flag inflation, no move smuggling
+
+### For Opinion Writing (UKE_O)
+1. Start with analytical input (typically UKE_C output with pattern flags)
+2. Apply Evidence Transformation Matrix: Select Boring/Contrary/Dangerous reading
+3. Run Counterfactual Test: Ensure claims are falsifiable via textual evidence
+4. Make Frame Decision: Explicitly accept or reject text's premises (with rationale)
+5. Set Temperature (Hot/Warm/Cool): Match intensity to target
+6. Craft Knife Sentence: Establish immediate stakes in paragraph 1
+7. Deploy Stakes Anchor: Why misreading matters (Propagation/Harm/Pattern)
+8. Track collapsed Ω variables: Document which uncertainties were erased into assertions
+
 ---
 
 ## Common Misinterpretations
@@ -271,6 +342,10 @@ System/Demand → Classification (UKE_ORG or UKE_P)
 - **uke_a.md** - Audit protocol specification (includes Fracture↔Omega Matrix)
 - **uke_r.md** - Ritual protocol specification
 - **uke_protocol_framing_guide.md** - Extended explanation of routing vs truth frame
+
+**Creative Work Analysis Protocols:**
+- **uke_c.md** - Criticism protocol (literary/creative work evaluation with pattern-gated moves)
+- **uke_o.md** - Opinion protocol (evidence-anchored cultural criticism generation)
 
 **Constraint Analysis Protocols:**
 - **uke_dr.md** - Deferential Realism protocol (constraint reality-checking for recommendations)
