@@ -327,3 +327,13 @@ How can readers reliably make this assessment? The essay provides criteria but a
 Ω: Omega Density Threshold — At what density of unresolved Omegas does analysis become genuinely intractable versus productively uncertain?
 
 Ω: Integration Cost — Does systematic Omega practice add sufficient value to justify the overhead, or does informal reasoning already handle these adequately?
+
+Ω: Stability Metric — How do we distinguish "stability" (structural robustness) from "exhaustion" (resource depletion) without external validation?
+
+Ω: Fatigue Legitimacy — Under what conditions is "Ω_stop" (resource exhaustion) a valid reason to accept a framework, and when is it merely a failure to secure necessary resources?
+
+Ω_stopping: Normative vs descriptive — Is the stopping condition describing when researchers stop or prescribing when they should? Text conflates these functions. Resolution requires: explicit distinction between descriptive observation and normative recommendation.
+
+Ω_validation: Evidence gap — Framework adds theoretical sophistication but zero empirical validation. How would we test whether this improves research outcomes? Resolution requires: specification of falsifiable predictions, controlled comparison studies, or longitudinal case analysis.
+
+Ω_operationalization: Stability measurement — "Framework holds" and "cost exceeds value" lack operational definitions. How do practitioners know when these conditions are met? Risk of unfalsifiable post-hoc justification. Resolution requires: measurable criteria for determining stability.
