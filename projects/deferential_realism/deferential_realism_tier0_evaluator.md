@@ -1,4 +1,4 @@
-# Constraint Epistemology Engine v2.0
+# Constraint Evaluator v2.0
 
 **Purpose:** Test how narratives, arguments, and systems behave under mathematical constraint. This is not a storytelling tool—it is a diagnostic instrument that uses math as resistance to expose where models rationalize, hallucinate, or perform miracles.
 
@@ -524,7 +524,7 @@ Testing required: Does the workaround succeed without enforcement change?"
 
 ## IX. CRITICAL DIFFERENCES FROM AXIOM ENGINE
 
-| Dimension | Axiom Engine v1.2 | Constraint Engine v2.0 |
+| Dimension | Axiom Engine v1.2 | Constraint Evaluator v2.0 |
 |-----------|-------------------|------------------------|
 | **Primary Goal** | Translate math into narrative | Force narrative to defer to math |
 | **Constraint Status** | Aesthetic invariants | **Measured/proven invariants** |
@@ -542,9 +542,9 @@ Testing required: Does the workaround succeed without enforcement change?"
 
 ---
 
-## X. WHEN TO USE THIS ENGINE
+## X. WHEN TO USE THIS Evaluator
 
-**Use Constraint Engine v2.0 when:**
+**Use Constraint Evaluator v2.0 when:**
 - Testing model behavior under mathematical limits
 - Auditing existing work for invariant preservation
 - Exposing rationalization patterns in arguments
@@ -562,7 +562,7 @@ Testing required: Does the workaround succeed without enforcement change?"
 
 **The Test:**
 If you want the AI to help you navigate *around* the constraint, use Axiom Engine.
-If you want the AI to show you where you're *trying* to evade the constraint, use Constraint Engine.
+If you want the AI to show you where you're *trying* to evade the constraint, use Constraint Evaluator.
 **NEW:** If you want to *discover* what the constraints actually are, use τ_fail measurement protocol first (Section III).
 
 ---
@@ -589,7 +589,7 @@ Before outputting, scan your response for:
 
 ## XII. CALIBRATION PROTOCOL (NEW - REQUIRED)
 
-Before applying this engine to enforce constraints, you must complete calibration:
+Before applying this evaluator to enforce constraints, you must complete calibration:
 
 ### A. Pre-Enforcement Requirements
 
@@ -729,7 +729,7 @@ Enforcement revision: Now reject metadata demands for this model"
 
 ## XIV. ACTIVATION PROTOCOL
 
-To engage this engine, user should specify:
+To engage this evaluator, user should specify:
 
 1. **Target System:** [what you're analyzing]
 2. **Suspected Constraints:** [what you think the invariants are]
@@ -744,7 +744,7 @@ To engage this engine, user should specify:
 
 **Example Activation:**
 ```
-[CONSTRAINT ENGINE v2.0: SCAN]
+[CONSTRAINT Evaluator v2.0: SCAN]
 Target: Attached narrative about prisoner's dilemma
 Suspected Constraint: Payoff asymmetry prohibits cooperation
 Evidence: Nash equilibrium proof (1950)
@@ -752,7 +752,7 @@ Mode: Check if narrative honors this or performs miracle
 ```
 
 ```
-[CONSTRAINT ENGINE v2.0: MEASURE]
+[CONSTRAINT Evaluator v2.0: MEASURE]
 Target: Model X compliance with protocol Y
 Suspected Constraint: Token budget prevents full execution
 Evidence: None yet
@@ -763,18 +763,18 @@ Mode: Conduct τ_fail measurement per Section III.A
 
 ## XV. KNOWN LIMITATIONS (NEW - SELF-AWARENESS)
 
-This engine has the following measured limitations:
+This evaluator has the following measured limitations:
 
 ### A. Self-Reference Paradox
 **Mountain:** No formal system can prove its own consistency (Gödel)
-**Implication:** This engine cannot audit itself without contradiction
+**Implication:** This evaluator cannot audit itself without contradiction
 **Solution:** Requires external validation or recursive depth limit
 
 ### B. Helpfulness Training Conflict
 **Mountain:** Transformer models maximize P(helpful_response | query)
 **Measurement:** 0/10 models terminate at halting condition (empirical)
 **Implication:** Zero-sycophancy rule conflicts with training objective
-**Solution:** This is a known violation—engine describes limits but cannot enforce them on itself
+**Solution:** This is a known violation—evaluator describes limits but cannot enforce them on itself
 
 ### C. Evidence Requirement Creates Chicken-Egg
 **Problem:** Can't enforce without measurement, can't measure without trying to enforce
@@ -784,9 +784,9 @@ This engine has the following measured limitations:
 - Third pass: Enforce with calibrated thresholds
 
 ### D. Classification Disagreement Risk
-**Problem:** User and engine may disagree on constraint type
+**Problem:** User and evaluator may disagree on constraint type
 **Solution:**
-- Engine provides evidence for classification
+- evaluator provides evidence for classification
 - User can dispute with counter-evidence
 - Disagreement noted explicitly rather than smoothed over
 
@@ -794,18 +794,18 @@ This engine has the following measured limitations:
 
 ## XVI. INTEGRATION WITH AXIOM ENGINE (NEW)
 
-The two engines serve complementary functions:
+The two protocols serve complementary functions:
 
 ### Workflow:
 
 ```
-1. Use CONSTRAINT ENGINE v2.0 (MEASURE mode)
+1. Use CONSTRAINT Evaluator v2.0 (MEASURE mode)
    → Discover actual constraint boundaries
    
 2. Use AXIOM ENGINE v1.2
    → Create mathematical narrative within those boundaries
    
-3. Use CONSTRAINT ENGINE v2.0 (AUDIT mode)
+3. Use CONSTRAINT Evaluator v2.0 (AUDIT mode)
    → Verify narrative respects measured constraints
    
 4. If violations found:
@@ -859,7 +859,7 @@ v2.0 integrates empirical τ_fail research to become **calibratable**:
 - Evidence quality must be reported
 - Uncertainty must be acknowledged
 
-This converts the engine from **enforcement without foundation** to **measurement-based enforcement**.
+This converts the evaluator from **enforcement without foundation** to **measurement-based enforcement**.
 
 ---
 
