@@ -68,7 +68,6 @@ Place in final 1-3 paragraphs.
 * **Harm:** Who suffers? (Students, readers, the critical tradition).
 * **Pattern:** What institutional dysfunction does this exemplify?
 
-
 **§1.7 THE Frame Decision (Externalist Check)
 
 **Purpose:** Explicitly choose whether to inhabit the text’s logic or dismantle it. This choice must be conscious, not accidental.
@@ -100,28 +99,83 @@ You cannot reject the frame based on external preference ("I don't like this," "
 **The Frame Principle:**
 *"Every text makes a wager. You must decide whether to take it. Both choices are arguments—make yours explicit."*
 
-**§1.8 - The Punching Direction Check**
+**§1.8 - The Rigor & Punching Direction Check**
 
-Before finalizing essay, verify:
+Purpose: To ensure sharp, provocative criticism derives its power from earned insight and the exposure of strategic evasion, rather than rhetorical superiority or the mocking of perceived intelligence.
 
-**Punching UP (allowed):**
+**I. The Punching Test (Target Selection)**
+Before finalizing the essay, explicitly verify the "direction" of the critique:
 
-- Challenging received wisdom with better evidence
-- Exposing contradiction in canonical reading
-- Revealing hidden assumption in critical tradition
+**Punching UP (Target: Systems & Assumptions):** The attack targets received wisdom, "common sense" that masks power, or the hidden theological/institutional assumptions within a canonical reading.
 
-**Punching DOWN (forbidden):**
+**Punching DOWN (Target: Capacity & Character):** The attack implies previous readers were "too blind" to see the obvious, or mocks a critic/author for a limitation the framework itself shares (e.g., criticizing a text for being "inaccessible" while using inaccessible language).
 
-- Implying previous readers are stupid
-- Claiming you're first to notice obvious thing
-- Asserting superiority without demonstrating it
+**II. The Erasure Diagnostic**
+This mechanical test removes subjectivity to determine if the critique is an "earned" insight or a "Reddit Dunk":
 
-Test: Remove all rhetoric about "critics miss this" / "three generations failed to see"
+**The Test:** Delete every phrase that serves as a strawman or an assertion of superiority, such as:
 
-Question: Does argument still work?
+"Critics have missed..."
 
-- If NO: You're punching down (fix or delete)
-- If YES: You're punching up (good)"
+"Three generations have failed to see..."
+
+"What nobody understands is..."
+
+"Philosophy has spent 2,500 years asking the wrong question..."
+
+**The Result:**
+
+**Failure:** If the argument collapses or feels hollow, it was a dunk. It relied on making others look small rather than making the text look different.
+
+**Success:** If the core analysis—such as a contradiction in the text's own logic or a previously unobserved material pattern—still stands, the sharpness is earned.
+
+**III. The Sontag/Orwell Standard (Evasion vs. Stupidity)**
+True provocation does not call the consensus "stupid"; it reveals it as a form of cowardice or strategic evasion.
+
+**Punching Down (The Intelligence Attack):** "Everyone is too dumb to see X."
+
+**Punching Up (The Evasion Attack):** "Everyone avoids seeing X because it is uncomfortable or threatens their institutional position."
+
+**The Evidence Requirement:** Every "violent certainty" must be anchored to a specific textual detail that the "boring reading" cannot account for. For example, a tragedy-focused reading of Kafka may fail to account for the precise, administrative locking sequences of the doors, which suggest liquidation rather than grief.
+
+**IV. The Status Quo Test**
+Evaluate the stakes of the critique by asking: "If this essay succeeds in changing how people read this work, what institutional practice or critical consensus is threatened?"
+
+**Punching Down Indicators:** Previous critics look foolish; the author looks smarter; no actual reading practice or institutional behavior changes.
+
+**Punching Up Indicators:** A method of interpretation (like "truth-first epistemology") becomes suspect; an assumption about texts is revealed as an evasion; pedagogical or institutional practices must change.
+
+**V. The Institutional Function Test (The Foucault Move)**
+Do not merely show that a reading is "wrong." Show what function the "wrong" reading serves for the institution.
+
+**The Question:** What work does the "boring reading" do for the institution of criticism or the status quo?
+
+**The Goal:** To move from "Critics are lazy" to "Critics avoid this reading because it would require admitting X."
+
+**Example:** Instead of claiming critics "missed" the economic subtext of a novel, argue that the "psychological reading" preserves the text’s autonomy from economic analysis—allowing critics to claim territory while avoiding uncomfortable questions about labor.
+
+**§1.9 - The Recursion Test (Bad Faith Detection)**
+
+Before collapsing Ω, check if your objection is:
+
+**HONEST CRITICISM:**
+
+- Points to internal contradiction in text's own logic
+- Uses text's own tools to reveal problem
+- Would not invalidate entire class of similar work
+- Specifies what evidence would change your assessment
+
+**WEAPONIZED CRITICISM:**
+
+- Takes honest admission and reframes as fatal flaw
+- Demands framework solve problems beyond its scope
+- Would invalidate all work in category if applied consistently
+- Creates unfalsifiable objections (no evidence could satisfy)
+
+**Test:** Apply your criticism to analogous work you respect.
+
+- If criticism still applies but you'd never make it about that work → You're weaponizing
+- If criticism applies and you'd make it about that work too → You're being consistent
 
 ---
 
